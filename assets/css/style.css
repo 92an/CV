@@ -26,6 +26,10 @@
     background-color: #222120
 }
 
+.bgColorPersonalInfo {
+    background-color: #f4f4f4ab
+}
+
 /*------------------------------Hover Effects */
 
 .hvr-sweep-to-bottom:before {
@@ -71,7 +75,7 @@ h4 {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
-    margin-bottom: 40x;
+    margin-bottom: 40px;
 }
 
 /*------------------------------heading */
@@ -213,4 +217,53 @@ footer {
 
 .linkedin li a i:hover {
     background: #e84610; 
+}
+
+
+/*------------------------------Personal info */
+
+.personalInfoItem {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personalInfoItem .key,
+.personalInfoItem .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.personalInfoItem .key p,
+.personalInfoItem .value p {
+    margin: 0;    
+}
+
+.personalInfoItem .key {
+width: 30%;
+margin-right: 21px;
+padding-top: 2px;
+vertical-align: top;
+}
+
+.personalInfoItem .key p {
+font-weight: 700;
+}
+
+.personalInfoItem .value {
+    position: relative;
+    width: 60%;
+} 
+
+
+
+/*------------------------------Three reasons */
+
+.threeReasonsIcon {
+    font-size: 26px;
+    color: #e67e22;
+}
+
+.threeReasonsHeading {
+    margin-bottom: 15px;    
 }
