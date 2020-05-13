@@ -370,3 +370,36 @@ button[type="submit"] {
 #Subject {
     margin-bottom: 20px;
 }
+
+
+/*------------------------------ Download */
+
+.downloadGrid {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80%;
+}
+
+
+.flagImg {
+    height: 50px;
+    width:100px;
+    display: block;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pdfImg {
+    height: 125px;
+    width:100px;
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Education .section-heading {
+    margin-top: 50px;
+}
