@@ -34,6 +34,10 @@
     background-color: #f4f4f4ab
 }
 
+.bgContactColor {
+    background-color: #fff;
+}
+
 /*------------------------------Hover Effects */
 
 .hvr-sweep-to-bottom:before {
@@ -74,6 +78,8 @@ h4 {
     padding: 0 30px 30px; 
     float: none;
 }
+
+
 
 .historyHeading,
 .section-heading {
@@ -274,10 +280,12 @@ font-weight: 700;
 }
 
 /*------------------------------Work History */
+
 .historyHeading {
     color: #fafafa;
     margin-bottom: 50px;
 }
+
 
 .timeline-item {
     padding: 4em 2em 0em 2em;
@@ -335,4 +343,30 @@ font-weight: 700;
 
 .progressSection {
     margin: 40px 20px;
+}
+
+/*------------------------------ Contact form */
+
+.contact-heading {
+    font-family: "Exo" sans-serif;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.centerForm {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%; 
+}
+
+button[type="submit"] {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #fafafa;
+    background-color: #7b0780;
+}
+
+#Subject {
+    margin-bottom: 20px;
 }
