@@ -15,23 +15,35 @@
 }
 
 .navColorHome {
-    background-color: #e67e22
+    background-color: #e67e22;
 }
 
 .navColorResume {
-    background-color: #3e24cf
+    background-color: #3e24cf;
 }
 
 .navColorContact {
-    background-color: #7b0780
+    background-color: #7b0780;
+}
+
+.navColorInterests {
+    background-color: #804807;
+}
+
+.navColorGithub {
+    background-color: #473747;
 }
 
 .navColorDownload {
-    background-color: #222120
+    background-color: #222120;
 }
 
 .bgColorPersonalInfo {
-    background-color: #f4f4f4ab
+    background-color: #f4f4f4ab;
+}
+
+.bgColorConferences {
+    background-color: #f4f4f4ab;
 }
 
 .bgContactColor {
@@ -134,9 +146,18 @@ margin-left: 50px;
     margin: 0;
 }
 
+@media only screen and (max-width: 575px){ 
 .menuContainer {
     font-size: 0;
-}
+    display: block;
+}}
+
+@media only screen and (min-width: 575px){ 
+.menuContainer {
+    font-size: 0;
+    display: flex;
+}}
+
 
 #nav {
     margin-bottom: 0;
@@ -147,11 +168,16 @@ margin-left: 50px;
     padding: 0;
 }
 
+
 .menuitem {
     height: 120px;
+    flex-shrink: 2;
     text-align: center;
     padding: 0;
 }
+
+
+
 
 .menuitem a {
     width: 100%;
@@ -228,6 +254,12 @@ footer {
 
 .linkedin li a i:hover {
     background: #e84610; 
+}
+
+/*------------------------------Map */
+
+div#map {
+    min-height: 360px;
 }
 
 

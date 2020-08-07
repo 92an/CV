@@ -50,7 +50,7 @@
                             </li>
                             <li class="col-6 col-sm-3 list-inline-item navColorDownload menuitem">
                                 <a href="download.html" class="hvr-sweep-to-bottom"><i class="fa fa-download" aria-hidden="true"></i><span>Download</span> </a>
-                            </li>                    
+                            </li>                   
                         </ul>
                     </div>
                 </div>
@@ -61,47 +61,60 @@
 
      </header>
 
-    <section class="container-fluid downloadGrid">
+
+    <section class="container-fluid">
     
-    <div class="row CVtitle">
-        <div class="col">
-            <h2 class="section-heading uppercase text-center">Curriculum Vitae</h2>
+        <div class="row">
+            <div class="col-md-4 bgColorConferences section-column">               
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="section-heading uppercase">Meeting places</h3>
+                    </div>  
+                </div>
+                <div id="map">                
+                </div>              
+            </div>
+            <div class="col-md-8 bg-color-three-reasons section-column">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="section-heading uppercase">Interests and Organizations</h3>
+                    </div>
+               </div>
+               <div class="row">
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="threeReasonsIcon fa fa-gamepad" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="threeReasonsHeading uppercase">Boardgames</h4>
+                                <p>
+                                I am an avid boardgame enthusiast, with an emphasis on strategy games with historical themes.
+                                Therefore I regurally hang out at the local boardgameshop "Dragons Lair" for weekly game sessions or at
+                                the Irish pub "Bishops Arms"
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="threeReasonsIcon fa fa-sitemap" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="threeReasonsHeading uppercase">Smash</h4>
+                                <p>
+                                Member of a boardgame non-profit that focuses on spreading boardgames and arranges a yearly convention
+                                called SMASH-con. It is located in Huddinge and has weekly activities and now trying to accrue younger members.
+                                It is operating from a cultural center.
+                                </p>
+                            </div>
+                        </div>
+                    </div>  
+                </div> 
+            </div>
         </div>
-    </div>
-    
-    <div class="row CVLanguageFlag">
-        <div class="col-md-6">
-            <h4 class="section-heading uppercase text-center">Swedish CV</h4>
-            <a href="assets/documents/swedishCV.pdf" target="_blank"> <img src="assets/img/sweFlag.jpg" alt="Swedish Flag" class="flagImg">
-            <img src="assets/img/pdfImg.jpg" alt="Swedish CVPDF" class="pdfImg"></a>
-        </div>
-        <div class="col-md-6">
-             <h4 class="section-heading uppercase text-center">English CV</h4>
-            <a href="assets/documents/englishCV.pdf" target="_blank"><img src="assets/img/americanFlag.jpg" alt="American Flag" class="flagImg">
-            <img src="assets/img/pdfImg.jpg" alt="English CVPDF"  class="pdfImg"></a>
-        </div>
-    </div>
-
-    <div class="row Education">
-        <div class="col">
-            <h2 class="section-heading uppercase text-center">Academic Documents</h2>
-        </div>
-    </div>
-
-    <div class="row AcademicDocuments">
-        <div class="col-md-6">
-            <h4 class="section-heading uppercase text-center">master's thesis</h4>
-            <a href="assets/documents/masterThesis.pdf" target="_blank"><img src="assets/img/pdfImg.jpg" alt="Swedish CVPDF" class="pdfImg"></a>
-        </div>
-        <div class="col-md-6">
-             <h4 class="section-heading uppercase text-center">master's degree</h4>
-            <a href="assets/documents/mastersDegree.pdf" target="_blank"><img src="assets/img/pdfImg.jpg" alt="English CVPDF"  class="pdfImg"></a>
-        </div>
-    </div>
-
-
     </section>
-    
 
     <footer class="container-fluid">
         <div id="footerspace" class="row">
@@ -141,6 +154,11 @@
                 </ul>
             </div>
         </div>
-    </footer>  
+    </footer>
+
+    <script src="assets/javascript/maps.js"></script>
+    <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSLS_wACQ7TImKKnODfZQRc7BGrjt28yc&callback=initMap"></script>  
+
 </body>
 </html>
