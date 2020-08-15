@@ -1,0 +1,55 @@
+/* This styling is taken and modified from
+https://github.com/Code-Institute-Solutions/InteractiveFrontendDevelopment-Resume/blob/master/02-TheGitHubAPI/06-rendering_repo_data/assets/css/github-styles.css*/
+
+br {
+  display: block;
+  line-height: 1.6em;
+}
+
+.small-name {
+  font-size: 0.75em;
+  color: #a9a9a9;
+  font-style: italic;
+}
+
+.repo-list ul li {
+  display: block;
+}
+
+.repo-list ul li a {
+  font-weight: bold;
+  padding: 6px 9px;
+  display: block;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  border: 1px solid #356492;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #c5052e;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e46060), to(#bd4a4a));
+  background-image: -webkit-linear-gradient(top, #e46060, #bd4a4a);
+  background-image: -moz-linear-gradient(top, #e46060, #bd4a4a);
+  background-image: -ms-linear-gradient(top, #e46060, #bd4a4a);
+  background-image: -o-linear-gradient(top, #e46060, #bd4a4a);
+  background-image: linear-gradient(top, #e46060, #bd4a4a);
+}
+
+.repo-list ul li a:hover {
+  background-color: #cf3d3d;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e46060), to(#bd4a4a));
+  background-image: -webkit-linear-gradient(top, #e46060, #bd4a4a);
+  background-image: -moz-linear-gradient(top, #e46060, #bd4a4a);
+  background-image: -ms-linear-gradient(top, #e46060, #bd4a4a);
+  background-image: -o-linear-gradient(top, #e46060, #bd4a4a);
+  background-image: linear-gradient(top, #e46060, #bd4a4a);
+}
+
+.repo-list ul li a:active {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.25);
+}
