@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"  type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("user_grM2n7qBOIyrUjAbkd8iG");
+        })();
+    </script>
+
+
     <title>Mikael Nilsson</title>
 </head>
 <body>
@@ -71,10 +79,10 @@
                 <h5 class="uppercase text-center">micke92an@comhem.se</h5>
 
                 <div class="centerForm">
-                    <form action="post">
+                    <form onsubmit="return sendMail(this);">
 
                         <label for="Subject" class="uppercase">select category</label>
-                            <select class="form-control" id="Subject" required>
+                            <select name="request_type" class="form-control" id="Subject" required>
                                 <option value="Recruiter">Recruiter</option>
                                 <option value="Recruiter Consultant">Recruiter Consultant</option>
                                 <option value="Project Colaboration">Project Colaboration</option>
@@ -84,7 +92,6 @@
                         <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
                         <input type="email" name="email" id="emailadress" class="form-control" placeholder="email" required>                       
                         <textarea name="projectsummary" id="projectsummary"  rows="5" class="form-control" placeholder="Project description" required></textarea>
-                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
                         <div class="form-row text-center">
                             <div class="col">
                                 <button type="submit" class="btn btn-secondary">Send Project Request</button>
@@ -139,6 +146,7 @@
                 </ul>
             </div>
         </div>
-    </footer>  
+    </footer>
+    <script src="assets/javascript/mail.js"></script>  
 </body>
 </html>
